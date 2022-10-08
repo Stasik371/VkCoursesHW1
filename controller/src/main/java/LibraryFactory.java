@@ -6,6 +6,9 @@ public class LibraryFactory {
         Gson gson = new Gson();
         try(FileReader fileReader = new FileReader("books.json")){
             Library library = gson.fromJson(fileReader,Library.class);
+            for (Book book: library.getBooks()) {
+                System.out.println(book.toString());
+            }
             return library;
 
         }

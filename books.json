@@ -4,91 +4,91 @@
       "name": "Voyna i mir",
       "genre": "novel",
       "yearOfRelease": 1865,
-      "author": "Tolstoy"
+      "author": "tolstoy"
     },
     {
       "name": "Anna Karenina",
       "genre": "novel",
       "yearOfRelease": 1878,
-      "author": "Tolstoy"
+      "author": "tolstoy"
     },
     {
       "name": "The Picture of Dorian Gray",
       "genre": "novel",
       "yearOfRelease": 1890,
-      "author": "Wilde"
+      "author": "wilde"
     },
     {
       "name": "Oliver Twist",
       "genre": "novel",
       "yearOfRelease": 1837,
-      "author": "Dickens"
+      "author": "dickens"
     },
     {
       "name": "Great Expectations",
       "genre": "novel",
       "yearOfRelease": 1860,
-      "author": "Dickens"
+      "author": "dickens"
     },
     {
       "name": "Yushka",
       "genre": "fiction",
       "yearOfRelease": 1935,
-      "author": "Platonov"
+      "author": "platonov"
     },
     {
       "name": "Korova",
-      "genre": "Fantastic",
+      "genre": "fantastic",
       "yearOfRelease": 2013,
-      "author": "Platonov"
+      "author": "platonov"
     },
     {
       "name": "Lolita",
       "genre": "novel",
       "yearOfRelease": 1955,
-      "author": "Nabokov"
+      "author": "nabokov"
     },
     {
       "name": "Dar",
       "genre": "metanovel",
       "yearOfRelease": 1938,
-      "author": "Nabokov"
+      "author": "nabokov"
     },
     {
       "name": "The Adventures of Tom Sawyer",
       "genre": "story",
       "yearOfRelease": 1876,
-      "author": "Twain"
+      "author": "twain"
     }
   ],
   "authorsList": [
     {
-      "name": "Nabokov",
+      "name": "nabokov",
       "yearOfBirth": 1899,
       "country": "Russia"
     },
     {
-      "name": "Platonov",
+      "name": "platonov",
       "yearOfBirth": 1899,
       "country": "Russia"
     },
     {
-      "name": "Twain",
+      "name": "twain",
       "yearOfBirth": 1835,
       "country": "USA"
     },
     {
-      "name": "Dickens",
+      "name": "dickens",
       "yearOfBirth": 1812,
       "country": "UK"
     },
     {
-      "name": "Tolstoy",
+      "name": "tolstoy",
       "yearOfBirth": 1828,
       "country": "Russia"
     },
     {
-      "name": "Wilde",
+      "name": "wilde",
       "yearOfBirth": 1854,
       "country": "UK"
     }
