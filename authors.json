@@ -1,0 +1,36 @@
+{
+  "authorsList": [
+    {
+      "name": "Nabokov",
+      "yearOfBirth": 1899,
+      "country": "Russia"
+    },
+    {
+      "name": "Platonov",
+      "yearOfBirth": 1899,
+      "country": "Russia"
+    },
+    {
+      "name": "Twain",
+      "yearOfBirth": 1835,
+      "country": "USA"
+    },
+    {
+      "name": "Dickens",
+      "yearOfBirth": 1812,
+      "country": "UK"
+    },
+    {
+      "name": "Tolstoy",
+      "yearOfBirth": 1828,
+      "country": "Russia"
+    },
+    {
+      "name": "Wilde",
+      "yearOfBirth": 1854,
+      "country": "UK"
+    }
+  ]
+}
+
+

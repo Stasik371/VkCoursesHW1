@@ -1,0 +1,97 @@
+{
+  "booksList": [
+    {
+      "name": "Voyna i mir",
+      "genre": "novel",
+      "yearOfRelease": 1865,
+      "author": "Tolstoy"
+    },
+    {
+      "name": "Anna Karenina",
+      "genre": "novel",
+      "yearOfRelease": 1878,
+      "author": "Tolstoy"
+    },
+    {
+      "name": "The Picture of Dorian Gray",
+      "genre": "novel",
+      "yearOfRelease": 1890,
+      "author": "Wilde"
+    },
+    {
+      "name": "Oliver Twist",
+      "genre": "novel",
+      "yearOfRelease": 1837,
+      "author": "Dickens"
+    },
+    {
+      "name": "Great Expectations",
+      "genre": "novel",
+      "yearOfRelease": 1860,
+      "author": "Dickens"
+    },
+    {
+      "name": "Yushka",
+      "genre": "fiction",
+      "yearOfRelease": 1935,
+      "author": "Platonov"
+    },
+    {
+      "name": "Korova",
+      "genre": "Fantastic",
+      "yearOfRelease": 2013,
+      "author": "Platonov"
+    },
+    {
+      "name": "Lolita",
+      "genre": "novel",
+      "yearOfRelease": 1955,
+      "author": "Nabokov"
+    },
+    {
+      "name": "Dar",
+      "genre": "metanovel",
+      "yearOfRelease": 1938,
+      "author": "Nabokov"
+    },
+    {
+      "name": "The Adventures of Tom Sawyer",
+      "genre": "story",
+      "yearOfRelease": 1876,
+      "author": "Twain"
+    }
+  ],
+  "authorsList": [
+    {
+      "name": "Nabokov",
+      "yearOfBirth": 1899,
+      "country": "Russia"
+    },
+    {
+      "name": "Platonov",
+      "yearOfBirth": 1899,
+      "country": "Russia"
+    },
+    {
+      "name": "Twain",
+      "yearOfBirth": 1835,
+      "country": "USA"
+    },
+    {
+      "name": "Dickens",
+      "yearOfBirth": 1812,
+      "country": "UK"
+    },
+    {
+      "name": "Tolstoy",
+      "yearOfBirth": 1828,
+      "country": "Russia"
+    },
+    {
+      "name": "Wilde",
+      "yearOfBirth": 1854,
+      "country": "UK"
+    }
+  ]
+}
+
