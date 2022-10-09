@@ -14,6 +14,7 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
     implementation("org.jetbrains:annotations:13.0")
     implementation("org.projectlombok:lombok:1.18.24")
+    annotationProcessor("org.projectlombok:lombok:1.18.22")
 }
 
 tasks.getByName<Test>("test") {

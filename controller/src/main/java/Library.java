@@ -9,16 +9,43 @@ import java.util.ArrayList;
 public @Data
 class Library {
     @SerializedName("booksList")
-    public static ArrayList<Book> books;
+    public ArrayList<Book> books;
     @SerializedName("authorsList")
-    public static ArrayList<Author> authors;
+    public ArrayList<Author> authors;
 
-    public void searchByAuthor(String author){
-        for (Book book: books) {
-            if(author.equals(book.getAuthor())){
-                System.out.println(book.getName());
+    public void searchByAuthor(String author) {
+        Author authorObj = searchAuthorInLibrary(author);
+        if (authorObj != null) {
+            serializationJson(authorObj);
+            System.out.println("His books in Library:");
+            for (Book book : books) {
+                if (author.equals(book.getAuthor())) {
+                    serializationJson(book);
+                }
+            }
+        } else {
+            System.err.println("No author in Library");
+        }
+    }
+
+    public Author searchAuthorInLibrary(String authorname) {
+        for (Author author : authors) {
+            if (authorname.equals(author.getName())) {
+                return author;
             }
         }
+        return null;
+    }
+
+    public void serializationJson(Book book) {
+        Gson gson = new Gson();
+        System.out.println(gson.toJson(book));
+    }
+
+
+    public void serializationJson(Author author) {
+        Gson gson = new Gson();
+        System.out.println("About author: " + gson.toJson(author));
     }
 
 /*public static List<Book> bookJsonSerialization(@NotNull FileReader jsonbooks) {
